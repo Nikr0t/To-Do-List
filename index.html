@@ -8,17 +8,13 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h2 class="header-text">To-Do List</h2>
-            <hr>
-        </div>
-        <div class="main">
-            <div class="input-box">
-                <input type="text" required="required" id="inputField">
-                <span>New Task</span>
+        <div class="todo-app">
+            <h2>To-Do List</h2>
+            <div class="row">
+                <input type="text" id="inputBox" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
             </div>
-                <button class="add-btn" id="addBtn">Add Task</button>
-            <ul class="list-ul" id="list">
+            <ul id="listContainer">
                 
             </ul>
         </div>
